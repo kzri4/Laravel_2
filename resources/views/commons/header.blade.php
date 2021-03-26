@@ -22,7 +22,6 @@
                 
                     <li class="nav-item">{!! link_to_route('signup', '新規ユーザ登録', [], ['class' => 'nav-link']) !!}</li>
                     <li class="nav-item">{!! link_to_route('login', 'ログイン', [], ['class' => 'nav-link']) !!}</li>
-                    <li class="nav-item">{!! link_to_route('movies.create','動画登録する',['id'=>Auth::id()],['class'=>'nav-link']) !!}</li>
             
                 @endif
                 
